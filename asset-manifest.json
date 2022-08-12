@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NFTPal-Deployed/static/css/main.2316fa5f.css",
+    "main.css": "/NFTPal-Deployed/static/css/main.49893c8e.css",
     "main.js": "/NFTPal-Deployed/static/js/main.f1a68669.js",
     "static/js/787.28cb0dcd.chunk.js": "/NFTPal-Deployed/static/js/787.28cb0dcd.chunk.js",
     "static/media/feedbg.jpg": "/NFTPal-Deployed/static/media/feedbg.07d35d43c2c3f7b4bc2c.jpg",
@@ -28,12 +28,12 @@
     "static/media/etherscan.svg": "/NFTPal-Deployed/static/media/etherscan.db67bb3c0538bcaa224b3389966a89fd.svg",
     "static/media/nftnerd.svg": "/NFTPal-Deployed/static/media/nftnerd.b275a5e12e5d22c52d00cb41740f23eb.svg",
     "index.html": "/NFTPal-Deployed/index.html",
-    "main.2316fa5f.css.map": "/NFTPal-Deployed/static/css/main.2316fa5f.css.map",
+    "main.49893c8e.css.map": "/NFTPal-Deployed/static/css/main.49893c8e.css.map",
     "main.f1a68669.js.map": "/NFTPal-Deployed/static/js/main.f1a68669.js.map",
     "787.28cb0dcd.chunk.js.map": "/NFTPal-Deployed/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2316fa5f.css",
+    "static/css/main.49893c8e.css",
     "static/js/main.f1a68669.js"
   ]
 }
