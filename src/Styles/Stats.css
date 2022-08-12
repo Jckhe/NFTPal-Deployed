@@ -1,0 +1,126 @@
+
+  .stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+    cursor: pointer;
+    gap: 100px;
+    justify-content: space-evenly;
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0 10px 5px;
+    
+    border-bottom: 1px DOTTED rgba(0, 0, 0, .5);
+    position: relative;
+  }
+
+
+ #bigVal {
+  padding-left: 5px;
+  white-space: nowrap;
+ }
+
+ .stats:hover {
+  border-bottom: 2px DOTTED rgb(255, 255, 255);
+}
+
+
+ .stats-val {
+  z-index: 100;
+  font-weight: bolder;
+  font-size: 1rem;
+  font-family: 'candy_beansregular';
+  letter-spacing: 2px;
+  -webkit-text-stroke: 1px;
+  -webkit-text-fill-color: rgb(7, 255, 255);
+ }
+
+ .bigPlayButtonTrue {
+  width: 210px;
+  height: 90px;
+  padding-top: 2px;
+  position: absolute;
+  transition: height .2s linear;
+  transition: width .1s linear;
+  filter:drop-shadow(1px 2px 1px black) 
+           drop-shadow(-1px -1px 0 rgb(121,189,154));
+ }
+
+ .bigPlayButtonFalse {
+  width: 200px;
+  height: 70px;
+  padding-top: 2px;
+  position: absolute;
+  transition: height .05s linear;
+  transition: width .05s linear;
+  filter:drop-shadow(1px 2px 1px black) 
+           drop-shadow(-1px -1px 0 rgb(121,189,154));
+ }
+
+ .playButtonHoverFalse {
+  width: 120px;
+  height: 70px;
+  padding-top: 2px;
+  position: absolute;
+  transition: heigh width 2s;
+  filter:drop-shadow(1px 2px 1px black) 
+           drop-shadow(-1px -1px 0 rgb(121,189,154));
+           
+ }
+
+ .playButtonHoverTrue {
+  width: 150px;
+  height: 90px;
+  padding-top: 2px;
+  position: absolute;
+  transition: height .2s linear;
+  transition: width .1s linear;
+  filter:drop-shadow(1px 2px 1px black) 
+           drop-shadow(-1px -1px 0 rgb(121,189,154));
+           
+ }
+
+ .playButton {
+  width: 120px;
+  height: 70px;
+  padding-top: 2px;
+  position: absolute;
+  transition: heigh width 2s;
+  filter:drop-shadow(1px 2px 1px black) 
+           drop-shadow(-1px -1px 0 rgb(121,189,154));
+           
+ }
+
+ .playButtonLarge {
+  padding-top: 2px;
+  position: absolute;
+  padding-left: 10px;
+  margin-left: 1px;
+  filter:drop-shadow(1px 2px 1px black) 
+           drop-shadow(-1px -1px 0 rgb(121,189,154));
+ }
+
+
+ .bmo {
+  border: 2px solid rgba(0, 0, 0, .3);
+  border-radius: 2px;
+  position: absolute;
+  top: -3px;
+  filter:drop-shadow(1px 2px 3px rgba(216, 211, 211,.3)) 
+           drop-shadow(-1px -1px 0 rgba(228, 228, 228, .3));
+ }
+
+#floorprice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+}
+
+.eth {
+  color: #1f1d1d;
+  filter:drop-shadow(1px 1px 3px rgb(167, 170, 7)) ;
+}
