@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NFTPal-Deployed/static/css/main.edb08d56.css",
-    "main.js": "/NFTPal-Deployed/static/js/main.29b998c8.js",
+    "main.css": "/NFTPal-Deployed/static/css/main.2316fa5f.css",
+    "main.js": "/NFTPal-Deployed/static/js/main.f1a68669.js",
     "static/js/787.28cb0dcd.chunk.js": "/NFTPal-Deployed/static/js/787.28cb0dcd.chunk.js",
     "static/media/feedbg.jpg": "/NFTPal-Deployed/static/media/feedbg.07d35d43c2c3f7b4bc2c.jpg",
     "static/media/finnsword.png": "/NFTPal-Deployed/static/media/finnsword.0a8eb5d4a9c9c05a6beb.png",
@@ -28,12 +28,12 @@
     "static/media/etherscan.svg": "/NFTPal-Deployed/static/media/etherscan.db67bb3c0538bcaa224b3389966a89fd.svg",
     "static/media/nftnerd.svg": "/NFTPal-Deployed/static/media/nftnerd.b275a5e12e5d22c52d00cb41740f23eb.svg",
     "index.html": "/NFTPal-Deployed/index.html",
-    "main.edb08d56.css.map": "/NFTPal-Deployed/static/css/main.edb08d56.css.map",
-    "main.29b998c8.js.map": "/NFTPal-Deployed/static/js/main.29b998c8.js.map",
+    "main.2316fa5f.css.map": "/NFTPal-Deployed/static/css/main.2316fa5f.css.map",
+    "main.f1a68669.js.map": "/NFTPal-Deployed/static/js/main.f1a68669.js.map",
     "787.28cb0dcd.chunk.js.map": "/NFTPal-Deployed/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edb08d56.css",
-    "static/js/main.29b998c8.js"
+    "static/css/main.2316fa5f.css",
+    "static/js/main.f1a68669.js"
   ]
 }
