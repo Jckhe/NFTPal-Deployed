@@ -10,8 +10,8 @@ export function Banner (props) {
             <div className="banner">
                 <img alt="NFTPal Banner" src={bannerPNG}/>
                 <div className="menu">
-                    <button><span>About</span></button>
-                    <button><span>Help</span></button>
+                    <div className="buttonHolder"><button class="button-74" role="button"><span id="About">About</span></button></div>
+                    <div className="buttonHolder2"><button class="button-74" role="button"><span id="Help">Help</span></button></div>
                 </div>
             </div>
  
