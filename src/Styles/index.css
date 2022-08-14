@@ -55,13 +55,9 @@ body {
 }
 
 #root {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  background-color: rgb(205,215,182);
+  
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
