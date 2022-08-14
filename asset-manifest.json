@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/NFTPal-Deployed/static/css/main.49893c8e.css",
-    "main.js": "/NFTPal-Deployed/static/js/main.f1a68669.js",
+    "main.css": "/NFTPal-Deployed/static/css/main.109a7f69.css",
+    "main.js": "/NFTPal-Deployed/static/js/main.edfa49e0.js",
     "static/js/787.28cb0dcd.chunk.js": "/NFTPal-Deployed/static/js/787.28cb0dcd.chunk.js",
-    "static/media/feedbg.jpg": "/NFTPal-Deployed/static/media/feedbg.07d35d43c2c3f7b4bc2c.jpg",
     "static/media/finnsword.png": "/NFTPal-Deployed/static/media/finnsword.0a8eb5d4a9c9c05a6beb.png",
-    "static/media/sword2.png": "/NFTPal-Deployed/static/media/sword2.39d7ef3342360f6fff95.png",
+    "static/media/nightmode.jpg": "/NFTPal-Deployed/static/media/nightmode.f9dc41997fd2c2a6cb36.jpg",
     "static/media/vector.png": "/NFTPal-Deployed/static/media/vector.5894cb54308d08de4eef.png",
-    "static/media/dsword.png": "/NFTPal-Deployed/static/media/dsword.8a86f8a9dce1a1de2c5c.png",
+    "static/media/feedbg4.jpg": "/NFTPal-Deployed/static/media/feedbg4.7ce4904b1b02d9252b89.jpg",
     "static/media/deletebutton.jpg": "/NFTPal-Deployed/static/media/deletebutton.9edd8e25566ba8e2231b.jpg",
     "static/media/candy_beans-webfont.woff": "/NFTPal-Deployed/static/media/candy_beans-webfont.986b5e52da8abce23006.woff",
     "static/media/nftpalbanner.png": "/NFTPal-Deployed/static/media/nftpalbanner.66e61cdbc03d0e672af6.png",
@@ -28,12 +27,12 @@
     "static/media/etherscan.svg": "/NFTPal-Deployed/static/media/etherscan.db67bb3c0538bcaa224b3389966a89fd.svg",
     "static/media/nftnerd.svg": "/NFTPal-Deployed/static/media/nftnerd.b275a5e12e5d22c52d00cb41740f23eb.svg",
     "index.html": "/NFTPal-Deployed/index.html",
-    "main.49893c8e.css.map": "/NFTPal-Deployed/static/css/main.49893c8e.css.map",
-    "main.f1a68669.js.map": "/NFTPal-Deployed/static/js/main.f1a68669.js.map",
+    "main.109a7f69.css.map": "/NFTPal-Deployed/static/css/main.109a7f69.css.map",
+    "main.edfa49e0.js.map": "/NFTPal-Deployed/static/js/main.edfa49e0.js.map",
     "787.28cb0dcd.chunk.js.map": "/NFTPal-Deployed/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49893c8e.css",
-    "static/js/main.f1a68669.js"
+    "static/css/main.109a7f69.css",
+    "static/js/main.edfa49e0.js"
   ]
 }
