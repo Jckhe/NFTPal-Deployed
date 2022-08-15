@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/NFTPal-Deployed/static/css/main.109a7f69.css",
-    "main.js": "/NFTPal-Deployed/static/js/main.edfa49e0.js",
+    "main.css": "/NFTPal-Deployed/static/css/main.25cefb44.css",
+    "main.js": "/NFTPal-Deployed/static/js/main.76acaa2b.js",
     "static/js/787.28cb0dcd.chunk.js": "/NFTPal-Deployed/static/js/787.28cb0dcd.chunk.js",
     "static/media/finnsword.png": "/NFTPal-Deployed/static/media/finnsword.0a8eb5d4a9c9c05a6beb.png",
+    "static/media/finnsword2.png": "/NFTPal-Deployed/static/media/finnsword2.cab40facaeb0f63e83ee.png",
     "static/media/nightmode.jpg": "/NFTPal-Deployed/static/media/nightmode.f9dc41997fd2c2a6cb36.jpg",
     "static/media/vector.png": "/NFTPal-Deployed/static/media/vector.5894cb54308d08de4eef.png",
     "static/media/feedbg4.jpg": "/NFTPal-Deployed/static/media/feedbg4.7ce4904b1b02d9252b89.jpg",
@@ -27,12 +28,12 @@
     "static/media/etherscan.svg": "/NFTPal-Deployed/static/media/etherscan.db67bb3c0538bcaa224b3389966a89fd.svg",
     "static/media/nftnerd.svg": "/NFTPal-Deployed/static/media/nftnerd.b275a5e12e5d22c52d00cb41740f23eb.svg",
     "index.html": "/NFTPal-Deployed/index.html",
-    "main.109a7f69.css.map": "/NFTPal-Deployed/static/css/main.109a7f69.css.map",
-    "main.edfa49e0.js.map": "/NFTPal-Deployed/static/js/main.edfa49e0.js.map",
+    "main.25cefb44.css.map": "/NFTPal-Deployed/static/css/main.25cefb44.css.map",
+    "main.76acaa2b.js.map": "/NFTPal-Deployed/static/js/main.76acaa2b.js.map",
     "787.28cb0dcd.chunk.js.map": "/NFTPal-Deployed/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.109a7f69.css",
-    "static/js/main.edfa49e0.js"
+    "static/css/main.25cefb44.css",
+    "static/js/main.76acaa2b.js"
   ]
 }
