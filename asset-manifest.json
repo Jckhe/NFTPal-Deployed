@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NFTPal-Deployed/static/css/main.25cefb44.css",
-    "main.js": "/NFTPal-Deployed/static/js/main.76acaa2b.js",
+    "main.css": "/NFTPal-Deployed/static/css/main.b0980d44.css",
+    "main.js": "/NFTPal-Deployed/static/js/main.bf2de2db.js",
     "static/js/787.28cb0dcd.chunk.js": "/NFTPal-Deployed/static/js/787.28cb0dcd.chunk.js",
     "static/media/finnsword.png": "/NFTPal-Deployed/static/media/finnsword.0a8eb5d4a9c9c05a6beb.png",
     "static/media/finnsword2.png": "/NFTPal-Deployed/static/media/finnsword2.cab40facaeb0f63e83ee.png",
@@ -9,13 +9,17 @@
     "static/media/vector.png": "/NFTPal-Deployed/static/media/vector.5894cb54308d08de4eef.png",
     "static/media/feedbg4.jpg": "/NFTPal-Deployed/static/media/feedbg4.7ce4904b1b02d9252b89.jpg",
     "static/media/deletebutton.jpg": "/NFTPal-Deployed/static/media/deletebutton.9edd8e25566ba8e2231b.jpg",
+    "static/media/example.png": "/NFTPal-Deployed/static/media/example.a1e7d29f2976834ceaa2.png",
     "static/media/candy_beans-webfont.woff": "/NFTPal-Deployed/static/media/candy_beans-webfont.986b5e52da8abce23006.woff",
+    "static/media/question-mark.png": "/NFTPal-Deployed/static/media/question-mark.531891f1a6a3959f9e74.png",
     "static/media/nftpalbanner.png": "/NFTPal-Deployed/static/media/nftpalbanner.66e61cdbc03d0e672af6.png",
+    "static/media/light-bulb.png": "/NFTPal-Deployed/static/media/light-bulb.0e1bbe2cfed693e97b1a.png",
     "static/media/lemonpie-webfont.woff": "/NFTPal-Deployed/static/media/lemonpie-webfont.b5c8237e21255a09797c.woff",
     "static/media/candy_beans-webfont.woff2": "/NFTPal-Deployed/static/media/candy_beans-webfont.422a2dc5860b719f95b0.woff2",
     "static/media/favicon.png": "/NFTPal-Deployed/static/media/favicon.ef5121c0b9baf7a1499a.png",
     "static/media/bmo.png": "/NFTPal-Deployed/static/media/bmo.fc9cae5d97f66252398f.png",
     "static/media/lemonpie-webfont.woff2": "/NFTPal-Deployed/static/media/lemonpie-webfont.13ca1175d2abf0c55fb1.woff2",
+    "static/media/lightbulb2.png": "/NFTPal-Deployed/static/media/lightbulb2.a35f1153576691370e79.png",
     "static/media/watermelon_days-webfont.woff": "/NFTPal-Deployed/static/media/watermelon_days-webfont.19b7358f8fce9768f0ef.woff",
     "static/media/cool.gif": "/NFTPal-Deployed/static/media/cool.114a8cbaf616967e274c.gif",
     "static/media/watermelon_days-webfont.woff2": "/NFTPal-Deployed/static/media/watermelon_days-webfont.1e806e5d355f07fc5981.woff2",
@@ -28,12 +32,12 @@
     "static/media/etherscan.svg": "/NFTPal-Deployed/static/media/etherscan.db67bb3c0538bcaa224b3389966a89fd.svg",
     "static/media/nftnerd.svg": "/NFTPal-Deployed/static/media/nftnerd.b275a5e12e5d22c52d00cb41740f23eb.svg",
     "index.html": "/NFTPal-Deployed/index.html",
-    "main.25cefb44.css.map": "/NFTPal-Deployed/static/css/main.25cefb44.css.map",
-    "main.76acaa2b.js.map": "/NFTPal-Deployed/static/js/main.76acaa2b.js.map",
+    "main.b0980d44.css.map": "/NFTPal-Deployed/static/css/main.b0980d44.css.map",
+    "main.bf2de2db.js.map": "/NFTPal-Deployed/static/js/main.bf2de2db.js.map",
     "787.28cb0dcd.chunk.js.map": "/NFTPal-Deployed/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25cefb44.css",
-    "static/js/main.76acaa2b.js"
+    "static/css/main.b0980d44.css",
+    "static/js/main.bf2de2db.js"
   ]
 }
