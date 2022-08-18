@@ -6,13 +6,22 @@ import feedBG from './assets/feedbg4.jpg'
 import nightBG from './assets/nightmode.jpg'
 import Favico from './assets/favicon.png'
 import Favicon from "react-favicon";
-import { ManualRefreshButton, NightModeToggle } from './Menu';
+import { AutoRefreshButton, ETHPrice, ManualRefreshButton, NightModeToggle } from './Menu';
 
 
 export  function App() {
 
-  const [nightMode, setNightMode] = useState(true)
-  const [manuelRefresh, toggleRefresh, manuelRefreshRef] = useState()
+  const [nightMode, setNightMode] = useState(true);
+  const [manuelRefresh, toggleRefresh] = useState();
+  const [autoRefresh, toggleAutoRefresh] = useState(false);
+  const [autoRefreshTimer, setRefreshTimer] = useState(0);
+
+  //props for auto-refresh intervals
+  const IntervalTimerFunc = (num) => {
+    setRefreshTimer(num)
+    console.log(num)
+    console.log(autoRefreshTimer)
+  }
 
   //night mode stuff
   const nightModeFunc = (e) => {
@@ -42,11 +51,30 @@ export  function App() {
       }
     }
   }
-  //
+  //ETH Price 
+
+  const fetchETHPrice = () => {
+    const options = {method: 'GET'};
+    fetch("https://api.etherscan.io/api?module=stats&action=ethprice&apikey=NU8841D6JKV8NY9HXD3F9DEVRD9Z6VG5W4", options)
+      .then(response => response.json())
+      .then(response => {
+        let eth = response.result.ethusd;
+        console.log(eth)
+      })
+  }
   
   //manual refresh stuff
   const refreshClick = () => {
     toggleRefresh(true)
+
+  }
+
+  
+  
+  //props function
+  const autoRefreshHandle = () => {
+    toggleAutoRefresh(!autoRefresh)
+    setRefreshTimer(300000)
   }
 
   
@@ -54,8 +82,16 @@ export  function App() {
 
   useEffect(() => {
     document.title = 'NFTPal'
+    if (autoRefresh === true) {
+      setTimeout(() => {
+          setRefreshTimer(autoRefreshTimer + 1);
+          console.log("yo: " + autoRefreshTimer)
+        }, autoRefreshTimer);
+    } else {
+      setRefreshTimer(0)
+    }
     toggleRefresh();
-  }, [manuelRefresh])
+  }, [autoRefresh, autoRefreshTimer])
 
   return (
     <div className="body" style={nightModeHandler()}>
@@ -63,13 +99,15 @@ export  function App() {
         <div className="nbuttonContainer">
           <NightModeToggle func={nightModeFunc} />
           <ManualRefreshButton refresh={refreshClick} />
+          <AutoRefreshButton intervalFunc={IntervalTimerFunc} func={autoRefreshHandle} />
+          <ETHPrice />
         </div>
       </div>
       
     
     <div className="feed" style={nightModeBG()}>
       <Favicon url={Favico}></Favicon>
-      <ModuleHandler refresh={manuelRefresh} nightMode={nightMode}  />
+      <ModuleHandler autoRefresh={autoRefreshTimer} refresh={manuelRefresh} nightMode={nightMode}  />
     </div>
     </div>
   );
